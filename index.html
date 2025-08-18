@@ -3,50 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sara Kermani | Academic CV</title>
+    <title>Sara Kermani | CV</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="container">
-        <!-- Header with Name and Title -->
+        <!-- Header Section -->
         <header class="header">
             <h1>Sara (Fatemeh) Kermani</h1>
             <p class="subtitle">PhD Candidate in Computer Science | Differential Privacy Researcher</p>
-            <!-- Add this button -->
             <a href="saraKermaniCV.pdf" download class="pdf-button">
-                <i class="fas fa-file-pdf"></i> Download PDF CV
+                <i class="fas fa-file-pdf"></i> Download Full CV
             </a>
         </header>
 
-        <!-- Two-column Layout -->
+        <!-- Two-Column Layout -->
         <div class="grid-container">
-            <!-- Left Column (Personal/Contact) -->
+            <!-- Left Column -->
             <aside class="sidebar">
                 <section class="contact">
-                    <h2>Contact</h2>
+                    <h2><i class="fas fa-id-card"></i> Contact</h2>
                     <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> Tehran, Iran</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Tehran, North Sohrevardi St., Mohajer Alley.</li>
                         <li><i class="fas fa-phone"></i> +98 912 447 1586</li>
                         <li><i class="fas fa-envelope"></i> sarakkermani@gmail.com</li>
-                        <li><i class="fab fa-github"></i> github.com/yourusername</li>
-                        <li><i class="fab fa-linkedin"></i> linkedin.com/in/yourusername</li>
                     </ul>
                 </section>
 
                 <section class="skills">
-                    <h2>Technical Skills</h2>
+                    <h2><i class="fas fa-code"></i> Technical Skills</h2>
                     <ul>
-                        <li><strong>Languages:</strong> Java, Python, C#, C++, SQL</li>
-                        <li><strong>Frameworks:</strong> .NET, Spring Boot, TensorFlow</li>
-                        <li><strong>Tools:</strong> Docker, Git, EF Core</li>
-                        <li><strong>Research:</strong> Differential Privacy, Algorithms</li>
+                        <li><strong>Programming:</strong> Java (Spring Boot, Hibernate), Python (NumPy, Pandas, TensorFlow), .NET C#, C++, MATLAB, R</li>
+                        <li><strong>Databases:</strong> MySQL, Advanced SQL, EF Core</li>
+                        <li><strong>Tools:</strong> Docker, Git, Angular (basic), JavaScript (basic)</li>
                     </ul>
                 </section>
 
                 <section class="languages">
-                    <h2>Languages</h2>
+                    <h2><i class="fas fa-language"></i> Languages</h2>
                     <ul>
                         <li>English (Fluent)</li>
                         <li>Persian (Native)</li>
@@ -54,44 +50,130 @@
                         <li>Spanish (A2)</li>
                     </ul>
                 </section>
+
+                <section class="interests">
+                    <h2><i class="fas fa-heart"></i> Interests</h2>
+                    <ul>
+                        <li>Differential Privacy</li>
+                        <li>Database Systems</li>
+                        <li>Machine Learning</li>
+                        <li>Algorithms</li>
+                        <li>Mountain Climbing (Member, Sharif University Hiking Club)</li>
+                        <li>Rock Climbing, Swimming, Reading</li>
+                    </ul>
+                </section>
             </aside>
 
             <!-- Right Column (Main Content) -->
             <main class="main-content">
-                <section class="about">
-                    <h2><i class="fas fa-user"></i> Profile</h2>
-                    <p>PhD candidate specializing in differential privacy with 5+ years of experience in software engineering (Java, .NET, SQL) and database design. Passionate about algorithms, data analysis, and machine learning.</p>
-                </section>
-
+                <!-- Work Experience -->
                 <section class="experience">
-                    <h2><i class="fas fa-briefcase"></i> Experience</h2>
+                    <h2><i class="fas fa-briefcase"></i> Work Experience</h2>
                     <div class="timeline-item">
                         <h3>.NET C# Developer</h3>
                         <p class="meta">Afarinesh DSE | 2019 - Present</p>
                         <ul>
-                            <li>Developed microservices using EF Core and designed SQL databases for commercial projects.</li>
-                            <li>Led HR recruitment and technical hiring.</li>
+                            <li>Developed projects (sobherowyesh.com, behkhaan.ir) using EF Core, Microservices, Unit/Integration Tests.</li>
+                            <li>Designed SQL databases and led HR recruitment.</li>
                         </ul>
                     </div>
-                    <!-- Add other experiences similarly -->
+                    <div class="timeline-item">
+                        <h3>Database Specialist & Data Analyst</h3>
+                        <p class="meta">Raydad.com | Sep - Nov 2024</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Java/C# Developer</h3>
+                        <p class="meta">Hasin Tech | 2016 - 2018</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Developer</h3>
+                        <p class="meta">Jelodar.com (Tourism Platform) | 2014 - 2015</p>
+                    </div>
                 </section>
 
+                <!-- Education -->
                 <section class="education">
                     <h2><i class="fas fa-graduation-cap"></i> Education</h2>
                     <div class="timeline-item">
                         <h3>PhD in Computer Science</h3>
                         <p class="meta">Sharif University of Technology | 2019 - Present</p>
-                        <p><em>Thesis:</em> Differential Privacy Applications in Graph Algorithms</p>
+                        <p><strong>Specialization:</strong> Differential Privacy</p>
+                        <p><strong>Courses:</strong> Optimization for Data Science (17.5/20), Statistical Learning (19/20)</p>
                     </div>
-                    <!-- Add other education entries -->
+                    <div class="timeline-item">
+                        <h3>M.Sc in Computer Science</h3>
+                        <p class="meta">Sharif University of Technology | 2017 - 2019</p>
+                        <p><strong>Course:</strong> Sketching Big Data (16/20)</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>B.Sc in Computer Science (GPA: 15.43/20)</h3>
+                        <p class="meta">Sharif University of Technology | 2012 - 2017</p>
+                        <p><strong>Minor:</strong> Economics</p>
+                        <p><strong>Notable Courses:</strong> 
+                            Advanced Programming (19.8/20), 
+                            Data Structures (18.3/20), 
+                            Design of Algorithms (18.5/20),
+                            Theory of Computer Science (19/20)
+                        </p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>High School Diploma</h3>
+                        <p class="meta">NODET (National Organization for Exceptional Talents) | Graduated 2012</p>
+                        <p>GPA: 18.60/20 (Graduated with Honors)</p>
+                    </div>
                 </section>
 
+                <!-- Research & Publications -->
                 <section class="publications">
-                    <h2><i class="fas fa-book"></i> Publications</h2>
+                    <h2><i class="fas fa-book"></i> Research & Publications</h2>
                     <div class="publication-item">
                         <h3>Differentially Private All-Pairs Shortest Distances for Low Tree-Width Graphs</h3>
                         <p class="meta">IEEE | 2023</p>
-                        <a href="https://ieeexplore.ieee.org/document/10323834" class="btn">View Paper</a>
+                        <a href="https://ieeexplore.ieee.org/document/10323834" class="btn" target="_blank">View Paper</a>
+                    </div>
+                    <div class="publication-item">
+                        <h3>k-Neighborhood Coloring</h3>
+                        <p class="meta">CID Conference, University of Zielona Góra, Poland | 2017</p>
+                        <p>Presented research under supervision of Prof. S. Akbari.</p>
+                    </div>
+                    <div class="publication-item">
+                        <h3>Graph Coloring Research</h3>
+                        <p class="meta">Sharif University of Technology | 2014 - 2017</p>
+                        <p>Supervised by Prof. S. Akbari (Dept. of Mathematical Sciences).</p>
+                    </div>
+                </section>
+
+                <!-- Teaching Experience -->
+                <section class="teaching">
+                    <h2><i class="fas fa-chalkboard-teacher"></i> Teaching Experience</h2>
+                    <div class="timeline-item">
+                        <h3>Lecturer, Linear Algebra</h3>
+                        <p class="meta">Sharif University | Spring 2021</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Lecturer, Discrete Mathematics</h3>
+                        <p class="meta">Sharif University | Fall 2020</p>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Teaching Assistant Roles</h3>
+                        <ul>
+                            <li>Theory of Languages and Automata (Spring 2018, Fall 2015)</li>
+                            <li>Advanced Java Programming (Spring 2016, Spring 2015)</li>
+                        </ul>
+                    </div>
+                    <div class="timeline-item">
+                        <h3>Workshops & Olympiad Training</h3>
+                        <p class="meta">NODET High Schools | 2012 - Present</p>
+                        <p>Taught combinatorics, algorithms, and programming for informatics Olympiad preparation.</p>
+                    </div>
+                </section>
+
+                <!-- Additional Training -->
+                <section class="training">
+                    <h2><i class="fas fa-certificate"></i> Additional Training</h2>
+                    <div class="timeline-item">
+                        <h3>AI Product Management Bootcamp (30 hrs)</h3>
+                        <p class="meta">Nextera Innovation Center, Tehran University | Sep 2024</p>
                     </div>
                 </section>
             </main>
