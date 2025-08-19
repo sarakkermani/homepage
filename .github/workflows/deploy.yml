@@ -15,3 +15,5 @@ jobs:
           git add .
           git diff --cached --quiet || git commit -m "Deploy to GitHub Pages"
           git push origin publish
+permissions:
+  contents: write
